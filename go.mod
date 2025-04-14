@@ -3,14 +3,13 @@ module img2color
 go 1.20
 
 require (
-	github.com/chai2010/webp v1.1.1
 	github.com/disintegration/imaging v1.6.2
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/joho/godotenv v1.5.1
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	go.mongodb.org/mongo-driver v1.12.0
-	golang.org/x/net v0.12.0
+	golang.org/x/net v0.21.0
 )
 
 require (
@@ -23,8 +22,8 @@ require (
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
-	golang.org/x/crypto v0.11.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/image v0.0.0-20211028202545-6944b10bf410 // indirect
-	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 )
